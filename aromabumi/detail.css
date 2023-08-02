@@ -1,0 +1,197 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+
+.headerWrapper{
+    background-color: #0F8B8D;
+    background-size: cover;
+    width: 100%;
+    height: 145px;
+    border-radius: 30px;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 433px;
+    margin-bottom: 50px;
+    width: 90%;
+  }
+
+.headerLogo{
+    padding-top: 39px;
+    padding-left: 138px;
+}
+
+.headerList{
+    display: flex;
+    column-gap: 50px;
+    font-size: 30px;
+    padding-top: 54px;
+    margin-left: auto;
+    /* aku mau nanya kenapa kalo masukin float disini ga gerak ya?
+    walaupun aku udh ngasih width di headerContainer-nya(headerContainer ini tuh parentnya si headerListkan?
+    aku juga udh nambahin display flex, tapi aku tadi nyarikan gaboleh position absolute, nah itu ceknya gmn ya? */
+}
+
+.headerList a {
+    text-decoration: none;
+    color: white;
+}
+
+footer{
+    background-color: #143642;
+    border-radius: 30px;
+    width: 100%;
+    height: 460px;
+}
+
+.footerWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    padding-top: 80px;
+    padding-left: 138px;
+}
+
+.emailPhone{
+    padding-top: 18px;
+    filter: brightness(1) invert(1);
+}
+
+.footerTitle{
+    color: #ec9a29;
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.footerList{
+    color: #F9FBFE;
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    list-style: none;
+}
+
+
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.product h1{
+    color: #0F8B8D;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    column-gap: 0px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.imageProduct{
+    width: 493px;
+
+}
+
+.textProduct p{
+    font-size: 24px;
+    line-height: 28.8px;
+    font-weight: 500;
+    height: 29px;
+    color: #143642;
+}
+
+.textProduct h1{
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 57.8px;
+    color: #0F8B8D;
+}
+
+.textProduct h2{
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 72px;
+    color: #0F8B8D;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+}
+
+.description{
+    width: 920px;
+    height: 305px;
+    margin-left: 257px;
+}
+
+.description h1{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 57.6px;
+    color: #0F8B8D;
+}
+
+.description hr{
+    width: 381px;
+    height: 5px;
+    color: #ec9a29;
+    background-color: #ec9a29;
+    margin-bottom: 25px;
+}
+
+.description p{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    color: #143642;
+    margin-bottom: 10px;
+
+}
+
+.btn{
+    background-color:rgba(168, 32, 26, 1);
+    border-radius: 55px;
+    border-color: transparent;
+    padding: 20px;
+    width: 335px;
+    color: #F9FBFE;
+    font-size: 24px;
+    font-weight: 100;
+}
+
+.btn:hover{
+    background-color: #0f8b8d;
+}
+
+.btn:active{
+    transform: translateY(4px); 
+    background-color: rgba(168, 32, 26, 1);
+}
+
+.btn a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}

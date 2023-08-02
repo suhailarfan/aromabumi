@@ -1,0 +1,146 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+  }
+
+.headerWrapper{
+    background-color: #0F8B8D;
+    background-size: cover;
+    width: 100%;
+    height: 145px;
+    border-radius: 30px;
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: row;
+    column-gap: 433px;
+    margin-bottom: 50px;
+    width: 90%;
+  }
+
+.headerLogo{
+    padding-top: 39px;
+    padding-left: 138px;
+}
+
+.headerList{
+    display: flex;
+    column-gap: 50px;
+    font-size: 30px;
+    padding-top: 54px;
+    padding-left: 706px;
+    margin-left: auto;
+    /* aku mau nanya kenapa kalo masukin float disini ga gerak ya?
+    walaupun aku udh ngasih width di headerContainer-nya(headerContainer ini tuh parentnya si headerListkan?
+    aku juga udh nambahin display flex, tapi aku tadi nyarikan gaboleh position absolute, nah itu ceknya gmn ya? */
+}
+
+.headerList a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.title{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.title h1{
+    color: #0F8B8D;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+}
+
+.title h2{
+    color: #143642;
+    font-size: 24px;
+    font-weight: 500px;
+    line-height: 28.8px;
+}
+
+.contentMain {
+    display: flex;
+    flex-direction: row;
+    column-gap: 120px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../image/Coffee\ background.png);
+    border-radius: 20px;
+    margin: 20px 60px;
+    width: 216px;
+    height: 250px;
+    position: relative;
+  }
+
+.content a{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.content h1 {
+    color: #f9fbfe;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: normal;
+    text-align: center;
+  }
+.content p {
+    color: #f9fbfe;
+    font-size: 18px;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+  }
+
+footer{
+    background-color: #143642;
+    border-radius: 30px;
+    width: 100%;
+    height: 460px;
+}
+
+.footerWrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 140px;
+    padding-top: 80px;
+    padding-left: 138px;
+}
+
+.emailPhone{
+    padding-top: 18px;
+    filter: brightness(1) invert(1);
+}
+
+.footerTitle{
+    color: #ec9a29;
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    list-style: none;
+}
+
+.footerList{
+    color: #F9FBFE;
+    font-size: 24px;
+    padding-bottom: 20px;
+    font-weight: 400;
+    list-style: none;
+}
+
